@@ -123,8 +123,9 @@ Then lite sees the changes and refresh the page.
 
 To start the server, just run:
 ```shell
-npm run lite
+npm run hrlite
 ```
+
 By default, it will launch the server at localhost:3000 and open the page defined by `index.html`
 in your favorite default browser.
 You'll find more informations in your console logs.
@@ -145,7 +146,14 @@ Now that you have all you need, just run the following commands:
 npm install
 typings install
 gulp build
-npm run lite
+npm run hrlite
+```
+
+**IMPORTANT**: if the last command throws an error, please ensure that your path variable
+contains `C:\Windows\System32` (you can use `echo %path%` to do that).
+If not, you can add it with the following command:
+```shell
+set path=%path%;C:\Windows\System32
 ```
 
 And that's it.
