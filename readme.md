@@ -26,7 +26,7 @@ gulp build
 ```
 6. Launch the server
 ```shell
-hnpm run lite
+npm run hrlite
 ```
 
 And you're done.
