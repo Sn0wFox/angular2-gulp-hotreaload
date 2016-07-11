@@ -1,6 +1,11 @@
 /**
  * System configuration for Angular 2 samples
  * Adjust as necessary for your application needs.
+ *
+ * NOTE: this file is mostly the same as the one provided
+ * here: https://angular.io/docs/ts/latest/tutorial/,
+ * for the version github:angular/angular@2.0.0-rc.4.
+ * Some small changes were applied to fit the needs of the current app.
  */
 (function(global) {
   // map tells the System loader where to look for things
