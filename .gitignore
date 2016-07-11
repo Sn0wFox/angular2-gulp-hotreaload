@@ -1,0 +1,9 @@
+build
+node_modules
+coverage
+jspm_packages
+typings
+
+*.js.map
+*.component.js
+*/main.js
