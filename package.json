@@ -2,13 +2,9 @@
   "name": "kea",
   "version": "0.0.1",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "lite": "lite-server",
     "hrlite": "concurrently --kill-others  \"gulp watch\" \"lite-server\" ",
-    "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
+    "clean": "gulp clean",
+    "build": "gulp build"
   },
   "license": "ISC",
   "dependencies": {
