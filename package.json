@@ -1,6 +1,6 @@
 {
-  "name": "kea",
-  "version": "0.0.1",
+  "name": "angular2-gulp-hotreload",
+  "version": "1.0.0",
   "scripts": {
     "hrlite": "concurrently --kill-others  \"gulp watch\" \"lite-server\" ",
     "clean": "gulp clean",
