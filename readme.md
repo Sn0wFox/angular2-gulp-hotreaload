@@ -1,6 +1,8 @@
 # Angular2 basic build with Gulp
 
-**OUTDATED. Will be updated soon.**
+**OUTDATED**
+
+---
 
 This is a repository created to help people to build an app based on Angular2 with gulp.
 Note that the Angular version used is rc-4.
